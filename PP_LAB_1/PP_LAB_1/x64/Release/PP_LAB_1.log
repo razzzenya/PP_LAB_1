@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\bucki\source\repos\PP_LAB_1\PP_LAB_1\Source.cpp(65,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода
+  4 of 181 functions ( 2.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  PP_LAB_1.vcxproj -> C:\Users\bucki\source\repos\PP_LAB_1\x64\Release\PP_LAB_1.exe
