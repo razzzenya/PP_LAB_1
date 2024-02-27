@@ -7,10 +7,7 @@ SECOND_MATRIX_FILENAME = "second matrix.txt"
 SIZE_FILENAME = "size.txt"
 
 
-if __name__ == "__main__":
-    with open(SIZE_FILENAME, "r") as size_file:
-        size = int(size_file.read())
-
+def check():
     first_matrix = np.loadtxt(FIRST_MATRIX_FILENAME, int)
     second_matrix = np.loadtxt(SECOND_MATRIX_FILENAME, int)
 
@@ -22,3 +19,7 @@ if __name__ == "__main__":
         print("Matrices are equal")
     else:
         print("Matrices are not equal")
+
+
+if __name__ == "__main__":
+    check()
